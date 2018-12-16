@@ -33,7 +33,7 @@ $items | Sort-Object -Property 'LastWriteTime' | ForEach-Object {
     }
     Write-Host "$($_.Name) --> $name"
 }
-Write-Host ''
+Write-Host
 Write-Host "$counter file(s) renamed. Done."
 
 
